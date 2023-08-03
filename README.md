@@ -1,18 +1,18 @@
 # Ad-Hoc-Table-Retrieval-using-Semantic-Similarity
 
 This is a research project focused on Information Retrieval. It involves the implementation of various information retrieval models described in the research paper titled "Ad Hoc Table Retrieval using Semantic Similarity," written by Shuo Zhang and Krisztian Balog from the University of Stavanger.
-
 The paper was presented at the WWW 2018: The 2018 Web Conference, which took place in Lyon, France, from April 23rd to 27th, 2018. It is published in the ACM format as follows:
 
 Shuo Zhang and Krisztian Balog. 2018. Ad Hoc Table Retrieval using Semantic Similarity. In WWW 2018: The 2018 Web Conference, April 23–27, 2018, Lyon, France. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3178876.3186067.
 
-In this project, we aim to explore and implement the techniques proposed in the paper, which focuses on ad hoc table retrieval through the application of semantic similarity. By reproducing and potentially extending the findings of the original research, we strive to contribute to the advancement of information retrieval methods and their practical applications.
 
+
+In this project, we aim to explore and implement the techniques proposed in the paper, which focuses on ad hoc table retrieval through the application of semantic similarity. By reproducing and potentially extending the findings of the original research, we strive to contribute to the advancement of information retrieval methods and their practical applications.
 The research paper titled "Ad Hoc Table Retrieval using Semantic Similarity" introduces several techniques for ad hoc table retrieval based on semantic similarity. Here is a summary of the main techniques presented in the paper:
 
-Semantic Similarity: The paper proposes to use semantic similarity as a key factor in table retrieval. Semantic similarity measures the resemblance between tables based on the meaning of their content rather than relying solely on exact matches or surface-level features.
+### Semantic Similarity: The paper proposes to use semantic similarity as a key factor in table retrieval. Semantic similarity measures the resemblance between tables based on the meaning of their content rather than relying solely on exact matches or surface-level features.
 
-Table Representation: To compute semantic similarity, tables are represented in a structured format that captures both the tabular structure and the textual content within the cells. This representation allows for a more meaningful comparison between tables.
+### Table Representation: To compute semantic similarity, tables are represented in a structured format that captures both the tabular structure and the textual content within the cells. This representation allows for a more meaningful comparison between tables.
 
 Word Embeddings: Word embeddings are utilized to capture the semantic relationships between words in the table cells. By mapping words to dense vectors in a continuous space, the model can capture the contextual meaning of the words and enhance the table representation.
 
